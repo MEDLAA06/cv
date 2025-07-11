@@ -1,0 +1,67 @@
+ /* Style global */
+        #body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Conteneur principal */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #3bb1d8;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Titre principal */
+        .container h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* Titres des sections */
+         .container h2 {
+            color: #444;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        /* Listes */
+       .container  ul {
+            list-style-type: square;
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        /* Images */
+        .photo img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            border: 2px solid #333;
+            width: 150px;
+            height: 150px;
+        }
+
+        /* Alignement flex pour certaines sections */
+        .contact, .skills, .activities {
+            display: flex;
+            justify-content: space-between;
+        } .container img{
+            width:150px; 
+            height:150px; 
+            border-radius:50%;
+            border:2px solid #333;
+        }
+        .head {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        .head h1 {
+            color: #333;
+            text-align: center;
+        }
